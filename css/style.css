@@ -1,0 +1,85 @@
+/*
+#  ·················
+#  ··_______________
+#  ·/·___/·___/·___/
+#  /·/__(__··|__··)·
+#  \___/____/____/··
+#  ·················
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Jura:wght@300&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+
+/*------ Variables */
+:root{
+  
+  /*------ Colores */
+  --red-color:#b30c1e; 
+  --black-color: #050505;
+  --bluski-color: #3184c4;
+  --bluski1-color:#8bc5e6;
+  --bluski2-color:#81a2c4;
+  --white-color:#d9d4da;
+  --gray-color:#5c5c5c;
+  --gray1-color:#767676;
+
+  /*------ fuente */
+
+  --font1-font-family:'Jura', sans-serif;
+  --font2-font-family:'Roboto', sans-serif;
+ 
+
+  /*------ Tipografía */
+  --normal:10px;
+  /*------ Espaciado */
+  --space:10px;
+  --space-2:20px;
+}
+
+a:link {
+  text-decoration:none;
+  color: var(--red-color);
+}
+
+body {
+  background-color: var(--white-color);
+  font-family: var(--font1-font-family);
+  color: var(--black-color);
+}
+
+.center {
+  text-align: center;
+  align-items: center;
+}
+
+.celeste {
+  color: var(--bluski-color);
+  font-weight: bold;
+}
+
+.footer {
+  background-color:var(--red-color) ;
+  color: var(--white-color);
+}
+
+.collapse {
+  background-color: var(--bluski1-color);
+}
+
+.navbar {
+  background: linear-gradient(180deg, var(--bluski-color), var(--bluski2-color) 35%, var(--bluski1-color) 100%);
+} 
+
+.rojo {
+  color: var(--red-color);
+  font-weight: bold;
+}
+
+.text-color {
+  color: var(--red-color);
+  font-weight: bold;
+  margin-left: 200px;
+
+}
