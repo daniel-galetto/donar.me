@@ -83,3 +83,190 @@ body {
   margin-left: 200px;
 
 }
+
+/*******GALERIA 1**************/
+
+.slider {
+	width: auto;
+	overflow: hidden;
+}
+
+.slider .controls ul {
+   padding: 0px;
+   text-align: center;
+   bottom: 1em;
+   margin: 0px;
+   width: 100%;
+   z-index: 5;
+}
+
+
+.slider .controls li {
+	list-style-type: none;
+	background-color: #444;
+	width: 20px;
+	height: 20px;
+	border-radius: 50%;
+	box-shadow: 0px 0px 5px rgba(0,0,0,0.4);
+	margin-right: px;
+	display: inline-block;
+	cursor: pointer;
+}
+
+
+.slider .controls li.active {
+   background-color: var(--red-color);
+}
+
+.slider .container {
+	white-space: nowrap;
+	position: relative;
+	transition: all 0.3s;
+}
+
+.slider  .imagen {
+	width: auto;
+	display: inline-block;
+
+}
+
+
+/***********galeria 2 *********/
+
+.image-gallery {
+  position:relative; 
+  width:100%;
+  min-width:400px;
+  min-height:400px;
+  border:1px solid var(--red-color);
+  border-radius:1%;
+  padding:0.88%;
+  background: #ffffff;
+  box-sizing:border-box;
+/*   margin:10% auto; */
+  display :inline-block;
+
+}
+
+.current {
+  width:100%;
+  max-width:600px;
+  margin:auto;
+  display:block;
+  border-radius:inherit;
+  border:0px solid #E87461;
+  
+  
+ }
+
+.thumbnail {
+  width:calc(50%/4);
+  display:inline-block;
+  margin-top:12px;
+  margin-right:1%;
+  cursor:pointer;  
+   }
+
+.thumbnail:last-child {
+  margin-right:0;
+}
+
+@keyframes fadeIn {
+  to {
+    opacity:1;
+  }
+}
+
+.fade-in {
+  opacity: 0;
+  animation: fadeIn 0.4s ease-in 1 forwards;
+}
+
+/****** faqs ******/
+
+
+.faq-section {
+  background: #fdfdfd;
+  min-height: 100vh;
+  padding: 10vh 0 0;
+}
+
+
+.faq {
+background: #FFFFFF;
+box-shadow: 0 2px 48px 0 rgba(0, 0, 0, 0.06);
+border-radius: 4px;
+}
+
+.faq .card {
+border: none;
+background: none;
+border-bottom: 1px dashed var(--gray-color);
+}
+
+.faq .card .card-header {
+padding: 0px;
+border: none;
+background: none;
+-webkit-transition: all 0.3s ease 0s;
+-moz-transition: all 0.3s ease 0s;
+-o-transition: all 0.3s ease 0s;
+transition: all 0.3s ease 0s;
+}
+
+.faq .card .card-header:hover {
+  background: rgba(233, 30, 99, 0.1);
+  padding-left: 10px;
+}
+.faq .card .card-header .faq-title {
+width: 100%;
+text-align: left;
+padding: 0px;
+padding-left: 30px;
+padding-right: 30px;
+font-weight: 800;
+font-size: 25px;
+letter-spacing: 1px;
+color: var(--bluski-color);
+text-decoration: none !important;
+-webkit-transition: all 0.3s ease 0s;
+-moz-transition: all 0.3s ease 0s;
+-o-transition: all 0.3s ease 0s;
+transition: all 0.3s ease 0s;
+cursor: pointer;
+padding-top: 20px;
+padding-bottom: 20px;
+}
+
+.faq .card .card-header .faq-title .badge {
+display: inline-block;
+width: 20px;
+height: 20px;
+line-height: 14px;
+float: left;
+-webkit-border-radius: 100px;
+-moz-border-radius: 100px;
+border-radius: 100px;
+text-align: center;
+background:var(--red-color);
+color: #fff;
+font-size: 12px;
+margin-right: 20px;
+}
+
+.faq .card .card-body {
+padding: 30px;
+padding-left: 35px;
+padding-bottom: 16px;
+font-weight: 800;
+font-size: 16px;
+color: var(--red-color);
+line-height: 28px;
+letter-spacing: 1px;
+border-top: 1px solid #F3F8FF;
+}
+
+.faq .card .card-body p {
+margin-bottom: 14px;
+}
+
